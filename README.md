@@ -25,3 +25,33 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## important package to import
+
+
+to import @auth0/angular-jwt type this command:
+npm install @auth0/angular-jwt
+
+//to import graphs
+//https://swimlane.gitbook.io/ngx-charts/installing  ==> documentation
+//https://swimlane.github.io/ngx-charts/#/ngx-charts/bar-vertical  ==> demo
+npm install @swimlane/ngx-charts --save
+
+to make pagination use this command:
+npm install ngx-pagination --save
+
+
+npm install -- save @fullcalendar/angular @ fullcalendar/daygrid
+npm i @fullcalendar/interaction
+
+To make widzard angular5+ :
+npm install --save angular-archwizard   ......................https://www.npmjs.com/package/angular-archwizard
+
+import { ArchwizardModule } from 'angular-archwizard';
+ 
+@NgModule({
+  imports: [
+    ArchwizardModule
+  ],
+})

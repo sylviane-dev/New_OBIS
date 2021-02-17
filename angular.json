@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/angular-archwizard/archwizard.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/scripts/main.d810cf0ae7f39f28f336.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -91,6 +97,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -124,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "cipresUI"
+  "defaultProject": "cipresUI",
+  "cli": {
+    "analytics": "3e880faf-d729-488e-80ee-89981060f665"
+  }
 }
